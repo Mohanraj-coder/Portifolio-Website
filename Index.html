@@ -17,45 +17,313 @@
 
 <body>
     <!---------Nav Bar------------>
-    <nav class="navbar navbar-expand-md mt-2 bg fixed-top" id="navbar">
-        <a href="" class="navbar-brand ">MOHAN</a>
+    <nav class="navbar navbar-expand-lg  bg fixed-top  " id="navbar">
+        <a href="" class="navbar-brand fs-3">MOHAN</a>
         <button type="button" class="navbar-toggler m-auto " data-bs-toggle="collapse" data-bs-target="#menu" >
             <i class='bx bx-menu'></i>
         </button>
         <div class="collapse navbar-collapse pt-1" id="menu">
             
-            <ul class="navbar-nav ms-auto ">
+            <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link mx-4 " href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link mx-4" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link mx-4" href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link mx-4" href="#portifolio">Portifolio</a></li>
-                <li class="nav-item"><a class="nav-link mx-4" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link mx-4 " href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link mx-4 " href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link mx-4 " href="#portifolio">Portifolio</a></li>
+                <li class="nav-item"><a class="nav-link mx-4 " href="#contact">Contact</a></li>
                 <i class='bx bx-moon mx-4' onclick="myFunction()"></i>
             </ul>
         </div>
     </nav>
 
     <!-----------  Home ------------->
-    <section id="home" class="d-flex align-items-center min-vh-100">
-        <div class="container">
-        <div class="row" style="margin-left: 50px;" >
-        <div class="col-md-6">
+    <section id="home" class="py-5" >
+        <div class="container-lg ">
+        <div class="row min-vh-100 align-items-center align-content-center" >
+        <div class="col-md-6  mt-5 mt-md-0">
             <h1 class="display-2 fw-bold">Hi,I'am Mohan</h1>
             <h3>Frontend Developer</h3>
             <p class="mt-4" style="font-size: 20px; font-family:'Poppins',sans-serif;">"Passionate and detail-oriented frontend developer <br> a solid foundation in HTML, CSS, and JavaScript. Eager<br> to contribute creativity and problem-solving skills."</p>
-        <a href="#"><button class="mt-4" style="margin-left: 20px; border-radius: 10px;font-weight: 400;">Contact me<i class='bx bx-send'></i></button></a>
+        <a href="#" class="button">Contact Me <i class='bx bx-send'></i></a>
+      
+        </div>   
+         <div class="col-md-6 mt-5 mt-md-0">
+            <div class="home-img text-center">
+            <img src="Styles/Profile.jpg" style="border-radius: 50px;" width="60%" >
+            </div>
+         </div>
 
-        </div>  
         </div>
         </div>
+    </section>
+
+<!------------- About ------------------>
+<section class="about py-5" id="about">
+    <div class="container-lg py-4">
+        <div class="row mt-3" >
+            <h1 style="text-align: center; ">About Me</h1>
+            <p style="text-align: center;">My Introduction</p>
+            <div class="col-md-6 py-2">
+                <img class="circular-image" src="Styles/Profile.jpg">
+            </div>
+            <div class="col-md-6">
+                <p class="mt-5" style="font-size: 20px;font-family: 'Poppins',sans-serif;">Hello! I am Mohan Raj, a passionate and detail-<br>orient individual aspiring to build a successful career in<br> [Frontend Development | Web Design | Software Engineering].<br> I recently graduated with a degree in BSC Computer Science <br>from NIFT-TEA COLLEGE OF KNITWEAR FASHION</p>
+                <a download="" class="button" href="Styles/Mohan Raj Resume 2023 (3) (1).pdf">
+                    Download CV<i class='bx bx-download'></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section> 
+
+<!------------ Skills ---------->
+<section id="skills" class="py-4 ">
+    <div class="container py-5 mt-3 ">
+        <h1 class="text-center">Skills</h1>
+        <div class="head">
+            <p class="lead fw-bold fs-4 mt-3"><i class='bx bx-code-curly skill-icon' > </i>Frontend developer</p>
+        </div>
+        <div class="row min-vh-100 ">
+            <div class="col-md-5 mt-5">
+                
+                <div class="skill-main">
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p >HTML</p>
+                            <p>90%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="html"></span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>CSS</p>
+                            <p>85%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="css"></span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>JavaScript</p>
+                            <p>75%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="javascript"></span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>React</p>
+                            <p>80%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="react"></span>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
         
-        
+
+
+                 <div class="col-md-5 mt-5" style="margin-left: 150px;">
+                   
+         
+                  <div class="skill-main">
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p >PHP</p>
+                            <p>85%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="php"></span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>Node Js</p>
+                            <p>70%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="nodejs"></span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>Firebase</p>
+                            <p>76%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="firebase"></span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>Python</p>
+                            <p>55%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="python"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <!----------- Portifolio -------->
+ 
+ <section id="portifolio" class=" py-5 ">
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 ">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">Latest Works</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row min-vh-100">
+            <div class="col-md-6 col-lg-4">
+                <div class="portifolio-item">
+                    <img src="Styles/cara 1.jpg" class="img-thumbnail w-100" alt="portifolio-item">
+                    <h3 class="text-capitalize fs-5 my-2">Team Section</h3>
+                    <p><a href="#" class=" text-decoration-none">Click here</a></p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="portifolio-item">
+                    <img src="Styles/cara 2.jpg" class="img-thumbnail w-100" style="height: 240px;" alt="portifolio-item">
+                    <h3 class="text-capitalize fs-5 my-2">Team Section</h3>
+                    <p><a href="#" class=" text-decoration-none">Click here</a></p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="portifolio-item">
+                    <img src="Styles/cara 3.jpg" class="img-thumbnail w-100" style="height: 240px;" alt="portifolio-item">
+                    <h3 class="text-capitalize fs-5 my-2">Team Section</h3>
+                    <p><a href="#" class=" text-decoration-none">Click here</a></p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="portifolio-item">
+                    <img src="Styles/cara 2.jpg" class="img-thumbnail w-100" style="height:240px ;" alt="portifolio-item">
+                    <h3 class="text-capitalize fs-5 my-2">Team Section</h3>
+                    <p><a href="#" class=" text-decoration-none">Click here</a></p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="portifolio-item">
+                    <img src="Styles/cara 1.jpg" class="img-thumbnail w-100" alt="portifolio-item">
+                    <h3 class="text-capitalize fs-5 my-2">Team Section</h3>
+                    <p><a href="#" class=" text-decoration-none">Click here</a></p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="portifolio-item">
+                    <img src="Styles/cara 3.jpg" class="img-thumbnail w-100" style="height: 240px;" alt="portifolio-item">
+                    <h3 class="text-capitalize fs-5 my-2">Team Section</h3>
+                    <p><a href="#" class=" text-decoration-none">Click here</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <!------------ Contact --------------->
+ <section id="contact" class="py-5" >
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="section-title text-center">
+                <h2>Contact Me</h2>
+                <p>Get in touch</p>
+            </div>
+
+        </div>
+        <div class="row mt-5 mb-5">
+            <div class="col-md-5">
+                <div class="contact-item d-flex">
+                    <div class="icon fs-4">
+                        <i class='bx bx-envelope' style="color: blueviolet;"></i>
+                    </div>
+                    <div class="text ms-3">
+                        <h3 class="fs-5">Email</h3>
+                        <p class="text-muted">mohan282229@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item d-flex mt-3">
+                    <div class="icon fs-4">
+                        <i class='bx bx-phone' style="color: blueviolet;"></i>
+                    </div>
+                    <div class="text ms-3 ">
+                        <h3 class="fs-5">Phone</h3>
+                        <p class="text-muted">9344864197</p>
+                    </div>
+                </div>
+                <div class="contact-item d-flex mt-3">
+                    <div class="icon fs-4">
+                        <i class='bx bx-current-location' style="color: blueviolet;"></i>
+                    </div>
+                    <div class="text ms-3 ">
+                        <h3 class="fs-5">Location</h3>
+                        <p class="text-muted">Coimbatore</p>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-md-7">
+                <div class="contact-form">
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-6 mb-4">
+                                <input type="text" placeholder="Name" class="form-control form-control-lg fs-6 shadow-sm border-0" style="background-color: #F1EFEF;" >
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <input type="email" placeholder="E-mail" class="form-control form-control-lg fs-6 shadow-sm border-0" style="background-color: #F1EFEF;">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 mb-4">
+                                <textarea rows="2"   placeholder="Projects" class="form-control form-control-lg fs-6 shadow-sm border-0" style="background-color: #F1EFEF;"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 mb-4">
+                                <textarea rows="6"  placeholder="Message" class="form-control form-control-lg fs-6 shadow-sm border-0" style="background-color: #F1EFEF;"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <a href="#" class="button">Send Message<i class='bx bx-send'></i></a>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+                    
+
+
+                </div>
+
+
+
+
+        </div>
+    </div>
+ </section>
 
     
 
 
 
-    </section>
+
+
+
+
+   
 
     
 
